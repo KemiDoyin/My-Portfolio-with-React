@@ -1,0 +1,6 @@
+nav {
+    width: max-content;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1.3rem 1.5rem;
+    display: block
+}
