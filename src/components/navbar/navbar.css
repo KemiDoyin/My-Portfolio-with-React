@@ -1,6 +1,31 @@
 nav {
     width: max-content;
     background: rgba(0, 0, 0, 0.6);
+    /* background: rgb(61, 26, 61); */
     padding: 1.3rem 1.5rem;
-    display: block
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    /* z-index: 2; */
+    display: flex;
+    border-radius: 2rem;
+    /* top: 2rem; */
+    bottom: 3rem;
+    gap: 3rem;
+
+}
+nav a {
+    color: rgb(203, 187, 218);
+    font-size: 1.4rem;
+    background: transparent;
+    border-radius: 50%;
+    padding: 0.2rem;
+}
+
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+nav .active {
+    background: rgba(0, 0, 0, 0.8);
+    color: blueviolet;
 }

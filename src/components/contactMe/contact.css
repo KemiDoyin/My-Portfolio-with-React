@@ -1,0 +1,7 @@
+#contact {
+    /* background: white; */
+    margin-top: 28rem;
+}
+.contact__container {
+    display: flex;
+}

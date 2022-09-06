@@ -1,0 +1,60 @@
+.about__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.aboutme__image img {
+    /* width: 100%; */
+    /* animation: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+}
+h3 {
+    font-size: 1rem;
+    font-size: 400;
+}
+h4 {
+    font-size: 2rem;
+    margin-bottom: 1.7rem;
+}
+h4 p {
+    color: blueviolet;
+    display: inline;
+}
+.aboutme__content {
+    line-height: 1.5rem;
+}
+.button {
+    display: flex;
+    gap: 0.7rem;
+}
+
+@media screen and (max-width:1024px) {
+    .about__container {
+        display: grid;
+        width: 65%;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+    }
+    .aboutme__content h3 {
+        top: 0;
+        left: 40%;
+        position: absolute;
+        text-align: center;
+    }
+    .aboutme__content p {
+        text-align: justify;
+    }
+    img {
+        margin-top: 2rem;
+    }
+    .button {
+        gap: 2rem;
+    }
+    div#content {
+        order: 1;
+    }
+}

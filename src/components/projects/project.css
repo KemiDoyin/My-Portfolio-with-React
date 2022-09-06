@@ -1,0 +1,44 @@
+
+.project__container {
+    display: grid;
+    /* justify-content: center;
+    align-items: center; */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    /* width: 60%; */
+    margin: 2rem;
+    /* bottom: 13rem; */
+    /* margin-bottom: 30rem; */
+}
+.projects {
+    background: rgb(18, 16, 51);
+    padding: 1rem;
+    /* margin-bottom: 3rem; */
+    border-radius: 2rem;
+    border: 2px solid transparent;
+}
+.project__image img {
+    width: 100%;
+    /* height: auto; */
+    border-radius: 1.5rem;
+    overflow: hidden;
+    margin: 0;
+}
+.projects:hover {
+    border-color: palevioletred;
+    background: transparent;
+    transition: all 300ms ease-in;
+}
+
+@media  screen and (max-width: 1024px) {
+    .project__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.3rem;
+    }
+}
+@media  screen and (max-width: 600px) {
+    .project__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
