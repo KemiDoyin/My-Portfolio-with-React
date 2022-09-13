@@ -31,17 +31,23 @@ h4 {
     }
     .about__container {
         display: grid;
-        width: 86%;
+        width: 56%;
         justify-content: center;
         text-align: center;
         margin: 0 auto;
         position: relative;
     }
+    .aboutme__content {
+        margin: 1rem;
+    }
     .aboutme__content h3 {
         top: 0;
-        left: 45%;
+        left: 38%;
         position: absolute;
         text-align: center;
+    }
+    .aboutme__content h4 {
+        line-height: 2rem;
     }
     .aboutme__content p {
         text-align: justify;
