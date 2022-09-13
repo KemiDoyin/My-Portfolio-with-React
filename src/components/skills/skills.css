@@ -1,8 +1,5 @@
 #skills {
-    /* background-color: azure; */
     height: 100vh;
-    margin-top: 10rem;
-    margin-bottom: 14rem;
 }
 
 .skill__container {
@@ -14,16 +11,11 @@
     padding: 2rem 2rem;
     line-height: 3;
     border: 2px solid rgb(253, 8, 253);
-    /* border-image: var(--Linear-) 1; */
-    /* top: 7rem; */
     text-align: center;
     margin: 0 auto;
     
 }
-/* .skill_content {
-    text-align: center;
-    padding: 1rem 1rem;
-} */
+
 .skill_slider {
     width: 60%;
     position: relative;
@@ -31,12 +23,14 @@
 
 }
 .skill_content img {
-    width: 50%;
-    /* margin: 0 auto; */
+    width: 60%;
 }
+.skill_content h3 {
+    text-transform: uppercase;
+}
+
 @media  screen and (max-width:600px) {
  .skill__container {
-    /* margin: 1rem; */
     top: 2rem;
  }   
 }

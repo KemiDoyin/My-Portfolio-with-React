@@ -59,7 +59,7 @@ const Projects = () => {
     <section id='project'>
       <TrackVisibility>
         {({ isVisible}) => 
-        <div className= {isVisible ? 'animate__animated animate__bounce' : ''}>
+        <div className= {isVisible ? 'animate__animated animate__slideInUp' : ''}>
       <h2>My portfolio</h2>
       <p>Here are a few projects I have done</p>
       </div>

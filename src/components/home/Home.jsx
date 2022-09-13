@@ -15,7 +15,10 @@ const Home = () => {
         <div className= {isVisible ? 'animate__animated animate__fadeInUp' : ''}>
         <span>Welcome to my portfolio</span>
         <h1>Hello, I'm Kemi</h1>
-        <p>a front-end developer with enthusiasm and great passion in learning as the world eveolves</p>
+        <p><q>Every great developer you know got there by solving problems they were unqualified to solve until they actually did it
+          <small>---Patrick McKenzie</small>
+          </q>
+          </p>
         <h2>Let's Connect<CTA/></h2>
         </div>
         }

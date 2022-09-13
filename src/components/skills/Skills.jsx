@@ -3,7 +3,7 @@ import './skills.css'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Html from '../../assets/html5.webp'
-import Node from '../../assets/node.png'
+import Node from '../../assets/download-removebg-preview.png'
 import JS from '../../assets/javaScript.webp'
 import CSS from '../../assets/css3.png'
 import ReactIcon from '../../assets/react.webp'
@@ -30,26 +30,26 @@ const Skills = () => {
     <section id='skills'>
       <div className="skill__container">
         <h2>Skillls</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti laboriosam placeat pariatur maxime aliquam consectetur error maiores cupiditate illo vitae? At temporibus nisi exercitationem dolorem porro accusamus dolor eaque sunt!</p>
+        <p>Here are the key languages that I'm experienced with</p>
         <Carousel responsive={responsive} infinite={true} className='skill__slider'>
           <div className="skill_content">
-            <img src={Html} alt="" />
+            <img src={Html} alt="html logo" />
             <h3>HTML5</h3>
           </div>
           <div className="skill_content">
-            <img src={CSS} alt="" />
+            <img src={CSS} alt="css logo" />
             <h3>CSS3</h3>
           </div>
           <div className="skill_content">
-            <img src={JS} alt="" />
+            <img src={JS} alt="javascript logo" />
             <h3>JavaScript</h3>
           </div>
           <div className="skill_content">
-            <img src={Node} alt="" />
+            <img src={Node}  alt="node logo" />
             <h3>Node JS</h3>
           </div>
           <div className="skill_content">
-            <img src={ReactIcon} alt="" />
+            <img src={ReactIcon} alt="react logo" />
             <h3>React</h3>
           </div>
         </Carousel>

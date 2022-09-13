@@ -1,6 +1,6 @@
 #contact {
     background: rgba(50, 48, 51, 0.5);
-   margin-top: 20rem;
+   margin-top: 2rem;
    
 }
 .contact__container {
@@ -16,7 +16,9 @@
 .form > :nth-child(5) {
     grid-column: span 2;
 }
-
+.contact__image img {
+    width: 85%;
+}
 button {
     color: bisque;
     text-transform: uppercase;
