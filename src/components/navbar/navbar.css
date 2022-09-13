@@ -1,6 +1,5 @@
 nav {
     width: max-content;
-    /* background: rgba(0, 0, 0, 0.3); */
     backdrop-filter: blur(12px);
     background: rgba(44, 43, 44, 0.3);
     padding: 1.3rem 1.5rem;
@@ -10,7 +9,6 @@ nav {
     z-index: 4;
     display: flex;
     border-radius: 2rem;
-    /* top: 2rem; */
     bottom: 3rem;
     gap: 3rem;
 
