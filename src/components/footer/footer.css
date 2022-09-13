@@ -1,0 +1,38 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+}
+.logo a {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(107, 4, 138);
+}
+.footer__icons a {
+    font-size: 1.5rem;
+    padding: 2rem;
+    color: rgb(104, 101, 101);
+}
+.social__icons small {
+    margin-top: rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    footer {
+        display: block;
+        text-align: center;
+        line-height: 2;
+        /* margin-bottom: 10rem; */
+    }
+    .social__icons {
+        margin-bottom: 8rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer__icons a{
+        padding: 1rem;
+    }
+}

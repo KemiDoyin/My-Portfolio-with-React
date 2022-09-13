@@ -26,33 +26,26 @@ html {
 
 body {
     font-family: 'Ubuntu', sans-serif;
-    background: var(--Black-);
-    /* background-color: rgb(100, 98, 98); */
-    /* background: rgba(29, 1, 29, 0.6); */
+    background-color: rgb(29, 26, 26);
     color: var(--White-);
-    /* background-image: url('./assets/banner-bg.png'); */
-    /* background-position: center; */
-    /* background-size: 1080px 1920px; */
-    /* background-repeat: no-repeat; */
 }
 
 a {
     color: var(--White-);
 }
-/* .icons {
-    background-image: var(--Linear-);
-} */
+section {
+    height: 100vh;
+}
+
 h1 {
     font-size: 3.5rem;
     font-weight: 700;
 }
 .container {
     margin: 0 auto;
-    width: 70%;
+    width: 75%;
 }
-section {
-    height: 100vh;
-}
+
 .section > h1 {
     text-align: center;
 }
@@ -61,7 +54,7 @@ section {
     width: max-content;
     cursor: pointer;
     display: inline-block;
-    margin-top: 3rem;
+    margin-top: 2rem;
     border: 2px solid transparent;
     border-image: var(--Linear-);
     border-image-slice: 1;
@@ -77,7 +70,7 @@ section {
     width: max-content;
     cursor: pointer;
     display: inline-block;
-    margin-top: 3rem;
+    margin-top: 2rem;
     border: none;
     background: blueviolet;
     padding: 1.1rem;

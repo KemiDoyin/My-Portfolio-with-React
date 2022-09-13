@@ -2,9 +2,11 @@ import React from 'react'
 import './skills.css'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Html from '../../assets/html.png'
-import JS from '../../assets/js.png'
-import Node from '../../assets/node-js.png'
+import Html from '../../assets/html5.webp'
+import Node from '../../assets/node.png'
+import JS from '../../assets/javaScript.webp'
+import CSS from '../../assets/css3.png'
+import ReactIcon from '../../assets/react.webp'
 const Skills = () => {
   const responsive = {
     superLargeDesktop: {
@@ -32,15 +34,23 @@ const Skills = () => {
         <Carousel responsive={responsive} infinite={true} className='skill__slider'>
           <div className="skill_content">
             <img src={Html} alt="" />
-            <h3>html</h3>
+            <h3>HTML5</h3>
+          </div>
+          <div className="skill_content">
+            <img src={CSS} alt="" />
+            <h3>CSS3</h3>
           </div>
           <div className="skill_content">
             <img src={JS} alt="" />
-            <h3>html</h3>
+            <h3>JavaScript</h3>
           </div>
           <div className="skill_content">
             <img src={Node} alt="" />
-            <h3>html</h3>
+            <h3>Node JS</h3>
+          </div>
+          <div className="skill_content">
+            <img src={ReactIcon} alt="" />
+            <h3>React</h3>
           </div>
         </Carousel>
       </div>

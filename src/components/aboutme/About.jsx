@@ -13,7 +13,7 @@ const About = () => {
           </div>
           <div id='content'className="aboutme__content">
           <h3>About me</h3>
-          <h4>Developer <p>and freelancer</p></h4>
+          <h4>Developer <span className='freelancer'> & freelancer</span></h4>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque enim vitae saepe? Ut exercitationem enim expedita consectetur itaque, labore quia quae. Quaerat aliquid ullam odit atque debitis sit delectus excepturi?</p>
             <div className="button">
             <a href="#contact" className='btn'>Lets talk</a>

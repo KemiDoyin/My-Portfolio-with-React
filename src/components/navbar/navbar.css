@@ -1,7 +1,7 @@
 nav {
     width: max-content;
-    background: rgba(0, 0, 0, 0.6);
-    /* background: rgb(61, 26, 61); */
+    /* background: rgba(0, 0, 0, 0.6); */
+    background: rgba(44, 43, 44, 0.7);
     padding: 1.3rem 1.5rem;
     position: fixed;
     left: 50%;

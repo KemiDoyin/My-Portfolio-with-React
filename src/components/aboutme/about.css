@@ -4,12 +4,7 @@
     align-items: center;
     gap: 0.5rem;
 }
-.aboutme__image img {
-    /* width: 100%; */
-    /* animation: bounce;
-    animation-duration: 2s;
-    animation-iteration-count: infinite; */
-}
+
 h3 {
     font-size: 1rem;
     font-size: 400;
@@ -18,7 +13,7 @@ h4 {
     font-size: 2rem;
     margin-bottom: 1.7rem;
 }
-h4 p {
+.aboutme__content .freelancer  {
     color: blueviolet;
     display: inline;
 }
@@ -31,9 +26,12 @@ h4 p {
 }
 
 @media screen and (max-width:1024px) {
+    .aboutme__container {
+        line-height: 5rem;
+    }
     .about__container {
         display: grid;
-        width: 65%;
+        width: 86%;
         justify-content: center;
         text-align: center;
         margin: 0 auto;
@@ -41,15 +39,17 @@ h4 p {
     }
     .aboutme__content h3 {
         top: 0;
-        left: 40%;
+        left: 45%;
         position: absolute;
         text-align: center;
     }
     .aboutme__content p {
         text-align: justify;
+        line-height: 2rem;
     }
-    img {
+    .aboutme__image img {
         margin-top: 2rem;
+        width: 380px;
     }
     .button {
         gap: 2rem;
