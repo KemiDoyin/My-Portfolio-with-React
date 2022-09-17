@@ -6,8 +6,9 @@ import image3 from '../../assets/desktop-design.jpg'
 import image4 from '../../assets/dice-game.jpg'
 import image5 from '../../assets/advice-gen.jpg'
 import image6 from '../../assets/rate-comp.jpg'
-import 'animate.css'
-import TrackVisibility  from 'react-on-screen'
+
+
+
 
 const Projects = () => {
   //Function to map through the project
@@ -31,7 +32,7 @@ const Projects = () => {
       image: image3,
       title: 'A chart component with local JSON file',
       github: 'https://github.com/KemiDoyin/chart-component',
-      liveDemo: ''
+      liveDemo: 'https://barchart-component.netlify.app/'
     },
     {
       id: 4,
@@ -57,14 +58,10 @@ const Projects = () => {
   ];
   return (
     <section id='project'>
-      <TrackVisibility>
-        {({ isVisible}) => 
-        <div className= {isVisible ? 'animate__animated animate__slideInUp' : ''}>
+     
       <h2>My portfolio</h2>
       <p>Here are a few projects I have done</p>
-      </div>
-        }
-        </TrackVisibility>
+    
       <div className="container project__container">
         {
           data.map(({id, image, title, github, liveDemo}) => {

@@ -7,6 +7,9 @@ import Node from '../../assets/download-removebg-preview.png'
 import JS from '../../assets/javaScript.webp'
 import CSS from '../../assets/css3.png'
 import ReactIcon from '../../assets/react.webp'
+import Bootstrap from '../../assets/bootstrap-removebg-preview.png'
+import GitIcon from '../../assets/Git-Icon-1788C.png'
+
 const Skills = () => {
   const responsive = {
     superLargeDesktop: {
@@ -51,6 +54,14 @@ const Skills = () => {
           <div className="skill_content">
             <img src={ReactIcon} alt="react logo" />
             <h3>React</h3>
+          </div>
+          <div className="skill_content">
+            <img src={Bootstrap} alt="bootstrap logo" />
+            <h3>Bootstrap</h3>
+          </div>
+          <div className="skill_content">
+            <img src={GitIcon} alt="git icon" />
+            <h3>git</h3>
           </div>
         </Carousel>
       </div>

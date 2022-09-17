@@ -1,15 +1,12 @@
-.home__container {
+header{
     background: rgb(41, 31, 37);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    position: relative;
+    height: 100vh;
 }
+
 .home__container2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
 }
 
 .home__image img {
@@ -22,20 +19,20 @@
 }   
 @keyframes slowbounce {
     0% {
-        transform: translateY(-18px);
+        transform: translateY(-25px);
     }
     50% {
-        transform: translateY(18px);
+        transform: translateY(25px);
     }
     100% {
-        transform: translateY(-18px);
+        transform: translateY(-25px);
     }
 }
 .home__info {
     margin-left: 6rem;
+    
 }
 h1 {
-    margin-top: 1.3rem;
     font-weight: 700;
 }
 .home__info p {
@@ -57,62 +54,61 @@ h2 {
     font-size: 1.3rem;
     display: inline;
 }
-.home__info span {
-    background-image: var(--Linear-);
-    padding: 1rem;
-    border-radius: .5rem;
-}
+
 .cta a {
     color: rgb(114, 49, 145);
     font-size: 1.4rem;
     margin-left: 1rem;
 }
 @media screen and (max-width: 600px) {
-    .home__image img {
-        margin: 0;
-        height: 250px;
-        margin-top: 4rem;
-        border-radius: 2rem 3rem 4rem;
-    }
     .home__container2 {
         display: block;
         margin: 0 auto;
         width: 90%;
     }
     .home__info {
-        margin: 0;
         line-height: 4rem;
         text-align: center;
+        
     }
     .home__info h1 {
         font-size: 3rem;
         margin-bottom: 3rem;
-        margin-top: 5rem;
     }
-    .home__info p {
-        font-size: 1.5rem;
+    
+    .home__info q {
+        font-size: 1.3rem;
         line-height: 2rem;
     }
+    
+    .home__image img {
+        margin: 0;
+        height: 350px;
+        margin-top: 2rem;
+        animation: none;
+    }
+    
 }
 
 @media screen and (max-width: 1024px) {
     .home__container2 {
         display: block;
+        width: 87%;
+        margin: 0 auto;
     }
     .home__image img {
         width: 70%;
         margin-left: 17%;
+        animation: none;
     }
     .home__info {
         margin: 0;
-        line-height: 3rem;
+        line-height: 7rem;
     }
     .home__info h1,h2,p {
         text-align: center;
     }
-    .home__info h1 {
-        margin-top: 3rem;
-    }
+    
     .home__info p {
         margin-top: 2rem;
         font-size: 2rem;

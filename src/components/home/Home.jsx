@@ -12,8 +12,7 @@ const Home = () => {
         <div className="home__info">
         <TrackVisibility>
         {({ isVisible}) => 
-        <div className= {isVisible ? 'animate__animated animate__fadeInUp' : ''}>
-        <span>Welcome to my portfolio</span>
+        <div className= {isVisible ? 'animate__animated animate__slideInUp' : ''}>
         <h1>Hello, I'm Kemi</h1>
         <p><q>Every great developer you know got there by solving problems they were unqualified to solve until they actually did it
           <small>---Patrick McKenzie</small>

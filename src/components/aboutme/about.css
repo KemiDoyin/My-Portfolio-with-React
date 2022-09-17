@@ -70,3 +70,19 @@ h4 {
         order: 1;
     }
 }
+@media screen and (max-width:600px) {
+    .aboutme__image img {
+        animation: slowbounce 3s linear infinite;
+    }
+    @keyframes slowbounce {
+        0% {
+            transform: translateY(-18px);
+        }
+        50% {
+            transform: translateY(18px);
+        }
+        100% {
+            transform: translateY(-18px);
+        }
+    }
+}
