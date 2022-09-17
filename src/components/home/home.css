@@ -97,9 +97,7 @@ h2 {
         margin: 0 auto;
     }
     .home__image img {
-        width: 70%;
-        margin-left: 17%;
-        animation: none;
+        display: none;
     }
     .home__info {
         margin: 0;
