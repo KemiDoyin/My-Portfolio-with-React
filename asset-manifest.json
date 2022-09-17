@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/My-Portfolio-with-React/static/css/main.049d6d11.css",
+    "main.css": "/My-Portfolio-with-React/static/css/main.9e5251f3.css",
     "main.js": "/My-Portfolio-with-React/static/js/main.a9421f66.js",
     "static/media/girly2-removebg-preview.png": "/My-Portfolio-with-React/static/media/girly2-removebg-preview.023fce69cb402f8e07e9.png",
     "static/media/advice-gen.jpg": "/My-Portfolio-with-React/static/media/advice-gen.bd372577d35c4ff20a55.jpg",
@@ -20,11 +20,11 @@
     "static/media/revicons.ttf": "/My-Portfolio-with-React/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/My-Portfolio-with-React/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/My-Portfolio-with-React/index.html",
-    "main.049d6d11.css.map": "/My-Portfolio-with-React/static/css/main.049d6d11.css.map",
+    "main.9e5251f3.css.map": "/My-Portfolio-with-React/static/css/main.9e5251f3.css.map",
     "main.a9421f66.js.map": "/My-Portfolio-with-React/static/js/main.a9421f66.js.map"
   },
   "entrypoints": [
-    "static/css/main.049d6d11.css",
+    "static/css/main.9e5251f3.css",
     "static/js/main.a9421f66.js"
   ]
 }
