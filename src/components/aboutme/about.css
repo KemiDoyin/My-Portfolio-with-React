@@ -10,7 +10,7 @@
 }
 h3 {
     font-size: 1rem;
-    font-size: 400;
+    font-weight: 400;
 }
 h4 {
     font-size: 2rem;
@@ -66,9 +66,7 @@ h4 {
     .button {
         gap: 2rem;
     }
-    div#content {
-        order: 1;
-    }
+    
 }
 @media screen and (max-width:600px) {
     .aboutme__image img {
@@ -85,4 +83,5 @@ h4 {
             transform: translateY(-18px);
         }
     }
+    
 }

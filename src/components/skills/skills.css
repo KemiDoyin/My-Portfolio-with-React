@@ -4,7 +4,6 @@
 
 .skill__container {
     padding: 0 0 1rem 0;
-    position: relative;
     background: rgba(56, 55, 56, 0.2);
     width: 85%;
     border-radius: 2.4rem;
@@ -18,7 +17,6 @@
 
 .skill_slider {
     width: 60%;
-    position: relative;
     margin: 0 auto;
 
 }
@@ -31,7 +29,8 @@
 
 @media  screen and (max-width:600px) {
  .skill__container {
-    top: 2rem;
+    margin-top: 70%;
+   
  }   
  
 }
